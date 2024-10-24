@@ -11,6 +11,7 @@ public class CustomerModule {
 	{
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com");
+		driver.navigate().to("https://www.facebook.com/");
 		driver.close();
 	}
 
